@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	  <link rel="stylesheet" href="index.css">
+    <title>DIANA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="website icon" type="png" href="./img/DIANA.jpg" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+ <body class="body-background">
+
+    <header>
+   
+        <input type="checkbox" name="" id="toggler">
+    <label  for="toggler" style="display: none;" class="fas fa-bars toggler-nav-close"></label>
+    <label  for="toggler"  class="fas fa-bars toggler-nav"></label>
+    
+       <a href="index.html" class="logo">DIANA<span>.</span></a>
+      
+          <nav class="navbar">
+            <a class="inicio-nav" href="inicio.html">Inicio</a>
+      
+            <a class="nueva-coleccion-nav"  href="inicio.html">Nueva Coleccion</a>
+      
+            <a class="verano-nav"  href="inicio.html">Verano/24</a>
+    
+            <a class="contacto-nav" href="contactos.html">Contacto</a>
+          </nav>
+    
+          <div class="icons">
+            <a href="siguenos.html" class="fas fa-heart"></a>
+            <a href="carrito.html" class="fas fa-shopping-cart"></a><span class="numerito">0</span>
+            <a href="login.html" class="fas fa-user"></a>
+          </div>
+    
+          <div class="icons">
+            <a href="#"></a>
+          </div>
+    
+    
+          <!-- header section starts -->
+    </header>
+   
+    <div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="img/ropanew2.jpg" class="d-block w-100" height="700px" alt="Accesorio">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3 class="bg-primary bg-opacity-75 rounded p-2">¡Nueva Colección 2024!</h3>
+                  <p class="bg-primary bg-opacity-75 rounded p-2">Descubre las últimas tendencias de la temporada con un 20% de descuento en compras mayores a $500</p>
+                  <a href="#" class="btn btn-light mt-2">Explorar Ahora</a>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="img/ropanew3.jpg" class="d-block w-100" height="700px" alt="Blusa">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3 class="bg-dark bg-opacity-75 rounded p-2">Promoción Especial</h3>
+                  <p class="bg-dark bg-opacity-75 rounded p-2">¡Hasta un 30% de descuento en productos seleccionados!</p>
+                  <a href="#" class="btn btn-primary mt-2">Ver Descuentos</a>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="img/ropanew4.jpg" class="d-block w-100" height="700px" alt="Bolsa de Compra">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3 class="bg-info bg-opacity-75 rounded p-2">Accesorios de Moda</h3>
+                  <p class="bg-info bg-opacity-75 rounded p-2">Completa tu look con nuestros accesorios exclusivos y recibe envío gratuito en pedidos mayores a $200</p>
+                  <a href="#" class="btn btn-light mt-2">Comprar Accesorios</a>
+              </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+      </button>
+  </div>
+    
+    <!-- Catálogo de Productos -->
+    <section class="container">
+      <div class="text-center mb-4">
+          <h1 class="fw-bold display-4">Nuestro Catálogo</h1>
+          <p class="text-muted" style="font-size: 15px;">Explora nuestra selección exclusiva y encuentra las mejores prendas para cada ocasión.</p>
+      </div>
+    
+      <!-- Filtro de Productos -->
+      <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="fw-bold mb-0">Filtrar Productos</h5>
+          <i class="bi bi-filter-square-fill fs-3 text-primary"></i>
+      </div>
+    
+      <!-- Grid de Productos -->
+     <!-- Grid de Productos Mejorado -->
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5">
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/blusa3.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 01">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 01</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/accesorio4.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 02">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 02</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/pantalon2.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 03">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 03</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/buzo.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 04">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 04</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Repetir la misma estructura para las demás filas de productos -->
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5 mt-4">
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/blusa2.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 01">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 01</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/accesorios.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 02">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 02</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/camisa2.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 03">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 03</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- Producto Individual -->
+      <div class="col">
+          <div class="card h-100 shadow-sm border-0">
+              <img src="img/pollera3.jpg" class="card-img-top img-fluid p-3" style="height: 300px; object-fit: cover;" alt="Abrigo 04">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Abrigo 04</h5>
+                  <p class="card-text text-muted">$1000</p>
+                  <button class="btn btn-outline-primary w-100">Agregar al Carrito</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    </section>
+    
+  
+
+
+       
+        
+    <footer class="footer">
+        <h2>© 2023 Torrezzilla. inc</h2>
+    </footer>
+        
+    
+        
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/texto.js"></script>
+</body>
+</html> 
+<!--Agregar numero a carrito-->
+<!--Copiar lo del index a inicio-->
